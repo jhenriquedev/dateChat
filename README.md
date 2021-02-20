@@ -1,6 +1,6 @@
 ![Logo of the project](https://github.com/DippingCode/dateChat/blob/master/public/readme_images/DateChat.png)
  
-## todo_app
+## dateChat
  
 UI de aplicativo de encontros desenvolvido em Flutter.
  

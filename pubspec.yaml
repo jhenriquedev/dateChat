@@ -1,0 +1,51 @@
+name: dateDrive
+description: Aplicativo de encontros.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  splashscreen: ^1.2.0
+  #cloud_firestore: ^0.13.5
+  #firebase_auth: ^0.16.0
+  #firebase_storage: ^3.1.5
+
+  provider: ^4.1.2
+
+  google_fonts: ^1.1.0
+  flutter_svg: ^0.19.1
+  flutter_feather_icons: ^1.0.3
+  
+  badges: ^1.1.6
+
+  flutter_swiper : ^1.1.6
+
+  flutter_native_splash: ^0.2.9
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    # - images/a_dot_burr.jpeg
+    - profile.jpeg
+    - foto01.jpeg 
+    - foto02.jpeg 
+    - foto03.jpeg 
+    - foto04.jpeg 
+    - foto06.jpeg
+
+flutter_native_splash:
+  color: "#1a1c28"
+  image: assets/splash.png
